@@ -1,0 +1,83 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.navbar-inverse {
+    background-color: lightskyblue;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-nav >li > a{
+    color:white;
+}
+
+.date {
+    text-align: center;
+    background-color: tomato;
+    width: 60px;
+    color: white;
+    border-radius: 8px;
+}
+.course {
+    list-style: none;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+        .course > li > .date  {
+            text-align: center;
+            background-color: tomato;
+            width: 60px;
+            color: white;
+            border-radius: 8px;
+        }   
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
+
+.details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.course > li .lecture {
+}
+
+        .course > li .category {
+        }
+
+        .course > li .action {
+            display: none;
+            left: 70px;
+            position: absolute;
+        }
+
+        .course > li:hover .action {
+            display: block;
+        }
+      
